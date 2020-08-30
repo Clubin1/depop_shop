@@ -11,10 +11,16 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
-  .images{
-  }
+.navbar{
+    box-shadow: 0 3px 3px -1px rgba(0,0,0,.2);
+
+}
+
+.teal{
+    background-color: rgb(75, 120, 243)!important;
+}
 
   @media only screen and (max-width: 1200px) {
     .about-img{
