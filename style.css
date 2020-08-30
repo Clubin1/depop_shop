@@ -15,3 +15,48 @@
 
   .images{
   }
+
+  @media only screen and (max-width: 1200px) {
+    .about-img{
+        width: 50rem;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .about-img{
+        width: 40rem;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .about-img{
+        width: 30rem;
+        text-align: center;
+    }
+    .about-title{
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .about-img{
+        width: 25rem;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 414px) {
+    .about-img{
+        width: 19rem;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 321px) {
+    .about-img{
+        width: 18rem;
+        text-align: center;
+    }
+  }
